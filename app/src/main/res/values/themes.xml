@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NotesApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/coloryellow</item>
+        <item name="colorPrimaryVariant">@color/colordarkblue900</item>
+        <item name="colorOnPrimary">@color/colordarkblue700</item>
+        <item name="colorSecondary">@color/colorcyan</item>
+        <item name="colorSecondaryVariant">@color/colorblue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi = "l">?attr/colorPrimaryVariant</item>
+    </style>
+
+
+    <style name = "Theme.NotesApp" parent="Base.Theme.NotesApp" />
+    <style name = "customalertdialog" parent="@android:style/Theme.Dialog">
+        <item name = "android:background">@color/colordarkblue200</item>
+    </style>
+
+</resources>
